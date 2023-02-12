@@ -6791,10 +6791,10 @@
             <mark class='Automatic' />
           </pane>
         </panes>
-        <rows />
+        <rows>([Clipboard_20230212T152310].[none:F1:nk] / ([Clipboard_20230212T152310].[none:F2:nk] / ([Clipboard_20230212T152310].[none:F3:nk] / ([Clipboard_20230212T152310].[none:F4:nk] / ([Clipboard_20230212T152310].[none:F5:nk] / ([Clipboard_20230212T152310].[none:F6:nk] / [Clipboard_20230212T152310].[none:F7:nk]))))))</rows>
         <cols />
       </table>
-      <simple-id uuid='{3CAD9FF7-3FBB-4442-9CAC-117318E350DF}' />
+      <simple-id uuid='{0080B5A8-61DB-4089-8AE3-AB40B23F7F6B}' />
     </worksheet>
     <worksheet name='alz_in_dem'>
       <layout-options>
@@ -7839,9 +7839,9 @@
             <zone h='97334' id='1' param='vert' removable='false' type-v2='layout-flow' w='98400' x='800' y='1333'>
               <zone h='16833' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98400' x='800' y='1333' />
               <zone h='80501' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98400' x='800' y='18166'>
-                <flipboard active-id='8' nav-type='caption' show-nav-arrows='true'>
+                <flipboard active-id='9' nav-type='caption' show-nav-arrows='true'>
                   <story-points>
-                    <story-point caption='Título' captured-sheet='' id='12' />
+                    <story-point caption='Título' captured-sheet='cover' id='12' />
                     <story-point caption='O que é demência?' captured-sheet='' id='9' />
                     <story-point caption='Prevalência de casos' captured-sheet='prev_dash' id='4'>
                       <capturedDeltas>
@@ -7874,11 +7874,14 @@
                         </dashboard>
                       </capturedDeltas>
                     </story-point>
-                    <story-point caption='Sobre os tipos e importância de conhecer' captured-sheet='' id='11' />
+                    <story-point caption='Sobre os tipos' captured-sheet='' id='11' />
                     <story-point caption='Tipos mencionados no NY Times' captured-sheet='dem_types_dash' id='5' />
                     <story-point caption='Google trends' captured-sheet='' id='10' />
                     <story-point caption='Palavras gerais' captured-sheet='wordcloud1' id='7' />
                     <story-point caption='Palavras médicas (2007-)' captured-sheet='wordcloud2' id='8' />
+                    <story-point caption='MCI' captured-sheet='' id='13' />
+                    <story-point caption='Conclusão, importância de conhecer + sugestões' captured-sheet='' id='14' />
+                    <story-point caption='Referências' captured-sheet='' id='15' />
                   </story-points>
                 </flipboard>
               </zone>
@@ -7919,8 +7922,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='96522' id='32' param='vert' type-v2='layout-flow' w='98260' x='870' y='1739'>
+            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='96522' id='36' param='vert' type-v2='layout-flow' w='98260' x='870' y='1739'>
                 <zone forceUpdate='true' h='34130' id='15' type-v2='text' w='80978' x='11739' y='3696'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='17'>There has also been an unstable </run>
@@ -7973,13 +7976,82 @@
       </devicelayouts>
       <simple-id uuid='{8AB0D044-394F-484D-9095-6CF53F640930}' />
     </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='cover'>
+      <style />
+      <size maxheight='460' maxwidth='920' minheight='460' minwidth='920' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='5' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='100000' id='4' is-scaled='1' param='C:/Users/Vanessa/Documents/Neuro/CLÍNICA/Imagens Incógnita/pexels-min-an-1406866.jpg' type-v2='bitmap' w='100000' x='0' y='0'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone forceUpdate='true' h='36957' id='3' type-v2='text' w='58370' x='21848' y='30000'>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='36'>How aware are we?</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='23'>Dementia rates and representations </run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='23'>in the last decades</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#ffffff' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='7' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='96522' id='6' param='vert' type-v2='layout-flow' w='98260' x='870' y='1739'>
+                <zone fixed-size='280' h='100000' id='4' is-fixed='true' is-scaled='1' param='C:/Users/Vanessa/Documents/Neuro/CLÍNICA/Imagens Incógnita/pexels-min-an-1406866.jpg' type-v2='bitmap' w='100000' x='0' y='0'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='36957' id='3' type-v2='text' w='58370' x='21848' y='30000'>
+                  <formatted-text>
+                    <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='36'>How aware are we?</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='23'>Dementia rates and representations </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='23'>in the last decades</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffffff' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{5C7FABE8-4BAF-41D7-AF5B-35C755531424}' />
+    </dashboard>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='dem_types_dash'>
       <style />
       <size maxheight='460' maxwidth='920' minheight='460' minwidth='920' sizing-mode='fixed' />
       <zones>
         <zone h='40217' id='8' name='types_in_dem2' show-title='false' w='87717' x='8696' y='18913' />
         <zone count='1' h='7609' id='11' name='types_in_dem2' name1='subtypes_in_dem' playctrls='0' show-title='false' slider='0' synchronized='1' trailctrls='0' type-v2='currpage' w='16848' x='77391' y='16304' />
-        <zone forceUpdate='true' h='41304' id='12' type-v2='text' w='38370' x='57283' y='58696'>
+        <zone forceUpdate='true' h='31739' id='12' type-v2='text' w='35000' x='59891' y='63261'>
           <formatted-text>
             <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='13'>Their frequency in the articles </run>
             <run fontalignment='1'>Æ&#10;</run>
@@ -7994,6 +8066,12 @@
             <run fontalignment='1'>Æ&#10;</run>
             <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='11'><![CDATA[Lewy bodies (10-15%), Frontotemporal (<5%).]]></run>
           </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#fefaf1' />
+          </zone-style>
         </zone>
         <zone forceUpdate='true' h='13913' id='13' type-v2='text' w='58587' x='24783' y='2174'>
           <formatted-text>
@@ -8028,8 +8106,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='850' minheight='850' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='30' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='96522' id='29' param='vert' type-v2='layout-flow' w='98260' x='870' y='1739'>
+            <zone h='100000' id='34' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='96522' id='33' param='vert' type-v2='layout-flow' w='98260' x='870' y='1739'>
                 <zone forceUpdate='true' h='13913' id='13' type-v2='text' w='58587' x='24783' y='2174'>
                   <formatted-text>
                     <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='20'>Types of dementia</run>
@@ -8053,7 +8131,16 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone forceUpdate='true' h='41304' id='12' type-v2='text' w='38370' x='57283' y='58696'>
+                <zone fixed-size='168' h='36522' id='14' is-fixed='true' name='subtypes_in_dem' show-title='false' w='45326' x='8152' y='60435'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='31739' id='12' type-v2='text' w='35000' x='59891' y='63261'>
                   <formatted-text>
                     <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='13'>Their frequency in the articles </run>
                     <run fontalignment='1'>Æ&#10;</run>
@@ -8074,15 +8161,7 @@
                     <format attr='border-width' value='0' />
                     <format attr='margin' value='4' />
                     <format attr='padding' value='0' />
-                  </zone-style>
-                </zone>
-                <zone fixed-size='168' h='36522' id='14' is-fixed='true' name='subtypes_in_dem' show-title='false' w='45326' x='8152' y='60435'>
-                  <zone-style>
-                    <format attr='border-color' value='#000000' />
-                    <format attr='border-style' value='none' />
-                    <format attr='border-width' value='0' />
-                    <format attr='margin' value='4' />
-                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#fefaf1' />
                   </zone-style>
                 </zone>
                 <zone h='6522' id='16' type-v2='text' w='10870' x='25870' y='91304'>
@@ -8155,6 +8234,52 @@
       </devicelayouts>
       <simple-id uuid='{3EEC2181-AA7E-4BF8-AFEE-9C1CE85DC41D}' />
     </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='dementia'>
+      <style />
+      <size maxheight='460' maxwidth='920' minheight='460' minwidth='920' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='5' type-v2='layout-basic' w='100000' x='0' y='0' />
+        <zone forceUpdate='true' h='68696' id='3' type-v2='text' w='77283' x='9348' y='3261'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#3c4245' fontname='Malgun Gothic' fontsize='26'>What is </run>
+            <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='26'>Dementia</run>
+            <run fontalignment='1' fontcolor='#3c4245' fontname='Malgun Gothic' fontsize='26'>?</run>
+            <run fontalignment='1'>Æ&#10;&#10;&#10;</run>
+            <run fontalignment='1' fontcolor='#3c4245' fontname='Malgun Gothic' fontsize='14'>It is an umbrella term for </run>
+            <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='14'>several diseases</run>
+            <run fontalignment='1' fontcolor='#3c4245' fontname='Malgun Gothic' fontsize='14'> affecting memory, other cognitive abilities and behaviour that interfere significantly with a person’s ability to maintain their activities of daily living. </run>
+            <run fontalignment='1'>Æ&#10;&#10;&#10;</run>
+            <run fontalignment='1' fontcolor='#3c4245' fontname='Malgun Gothic' fontsize='14'>Although dementia mainly affects older people, </run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#3c4245' fontname='Malgun Gothic' fontsize='14'>it is </run>
+            <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='14'>not an inevitable consequence of ageing</run>
+            <run fontalignment='1' fontcolor='#3c4245' fontname='Malgun Gothic' fontsize='14'>.</run>
+          </formatted-text>
+        </zone>
+        <zone h='14130' id='4' type-v2='text' w='11739' x='14783' y='70217'>
+          <formatted-text>
+            <run fontcolor='#000000' fontsize='36'>55</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{9C493BF1-C083-4CCE-A836-C3EA8BDAF80B}' />
+    </dashboard>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='prev_dash'>
       <style />
       <size maxheight='460' maxwidth='920' minheight='460' minwidth='920' sizing-mode='fixed' />
@@ -8192,8 +8317,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='800' minheight='800' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='33' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='96522' id='32' param='vert' type-v2='layout-flow' w='98260' x='870' y='1739'>
+            <zone h='100000' id='37' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='96522' id='36' param='vert' type-v2='layout-flow' w='98260' x='870' y='1739'>
                 <zone forceUpdate='true' h='22609' id='15' type-v2='text' w='60000' x='2283' y='4348'>
                   <formatted-text>
                     <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='18'>There has been an</run>
@@ -8292,25 +8417,26 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone forceUpdate='' h='80435' id='5' param='https://raw.githubusercontent.com/vdechen/DataVisualization_Dementia/main/WORDCLOUDS/1995_2006.gif' type-v2='web' w='57609' x='42391' y='19565' />
         <zone forceUpdate='true' h='14565' id='6' type-v2='text' w='83370' x='15109' y='0'>
           <formatted-text>
             <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='24'>Words</run>
             <run fontcolor='#333333' fontname='Malgun Gothic' fontsize='24'> in the lead paragraphs from the articles</run>
           </formatted-text>
         </zone>
-        <zone forceUpdate='true' h='17826' id='7' type-v2='text' w='31739' x='3913' y='18043'>
+        <zone forceUpdate='true' h='25870' id='7' type-v2='text' w='31739' x='3913' y='18043'>
           <formatted-text>
             <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'>The most prevalent word from 1995-2021 is </run>
             <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='15'>disease</run>
-            <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'>. </run>
-            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'>.</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>Other terms are related to:</run>
+            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'>Æ </run>
+            <run>Æ&#10;</run>
+            <run fontalignment='1'>Æ&#10;</run>
           </formatted-text>
         </zone>
-        <zone forceUpdate='true' h='69348' id='8' type-v2='text' w='33478' x='4674' y='30870'>
+        <zone forceUpdate='true' h='53261' id='8' type-v2='text' w='33043' x='4674' y='41522'>
           <formatted-text>
-            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>Other terms are related to:</run>
-            <run>Æ&#10;&#10;</run>
             <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>• </run>
             <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='12'>family</run>
             <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>: mother, father, husband, wife, family, grandfather, grandmother, son, daughter, brother, sister, loving, home</run>
@@ -8328,14 +8454,91 @@
             <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>: association, people, company, church, friend</run>
             <run>Æ&#10;</run>
           </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#fefaf1' />
+          </zone-style>
         </zone>
+        <zone forceUpdate='' h='80435' id='11' param='https://raw.githubusercontent.com/vdechen/DataVisualization_Dementia/main/WORDCLOUDS/Gif/1995_2006.gif' type-v2='web' w='57609' x='42283' y='19565' />
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+            <zone h='100000' id='13' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='96522' id='12' param='vert' type-v2='layout-flow' w='98260' x='870' y='1739'>
+                <zone forceUpdate='true' h='14565' id='6' type-v2='text' w='83370' x='15109' y='0'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='24'>Words</run>
+                    <run fontcolor='#333333' fontname='Malgun Gothic' fontsize='24'> in the lead paragraphs from the articles</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='25870' id='7' type-v2='text' w='31739' x='3913' y='18043'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'>The most prevalent word from 1995-2021 is </run>
+                    <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='15'>disease</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'>.</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>Other terms are related to:</run>
+                    <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'>Æ </run>
+                    <run>Æ&#10;</run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' forceUpdate='' h='80435' id='11' is-fixed='true' param='https://raw.githubusercontent.com/vdechen/DataVisualization_Dementia/main/WORDCLOUDS/Gif/1995_2006.gif' type-v2='web' w='57609' x='42283' y='19565'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='53261' id='8' type-v2='text' w='33043' x='4674' y='41522'>
+                  <formatted-text>
+                    <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>• </run>
+                    <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='12'>family</run>
+                    <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>: mother, father, husband, wife, family, grandfather, grandmother, son, daughter, brother, sister, loving, home</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>• </run>
+                    <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='12'>time and uncertainty</run>
+                    <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>: may, years, late, time, day, long term, risk, age, aging</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>• </run>
+                    <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='12'>life and death</run>
+                    <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>: died, death, cemetery, memorial, life, survived, service</run>
+                    <run>Æ&#10;&#10;</run>
+                    <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>• </run>
+                    <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='12'>community</run>
+                    <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>: association, people, company, church, friend</run>
+                    <run>Æ&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#fefaf1' />
+                  </zone-style>
+                </zone>
+              </zone>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -8360,7 +8563,7 @@
             <format attr='margin' value='8' />
           </zone-style>
         </zone>
-        <zone forceUpdate='' h='80435' id='5' param='https://raw.githubusercontent.com/vdechen/DataVisualization_Dementia/main/WORDCLOUDS/2007_2021.gif' type-v2='web' w='57609' x='42391' y='19565' />
+        <zone forceUpdate='' h='80435' id='5' param='https://raw.githubusercontent.com/vdechen/DataVisualization_Dementia/main/WORDCLOUDS/Gif/2007_2021.gif' type-v2='web' w='57609' x='42391' y='19565' />
         <zone forceUpdate='true' h='14565' id='6' type-v2='text' w='83370' x='15109' y='0'>
           <formatted-text>
             <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='24'>Words</run>
@@ -8379,19 +8582,81 @@
             <run fontalignment='1'>Æ&#10;&#10;</run>
           </formatted-text>
         </zone>
-        <zone forceUpdate='true' h='70000' id='8' type-v2='text' w='36087' x='2935' y='30870'>
+        <zone forceUpdate='true' h='25217' id='8' type-v2='text' w='34022' x='4022' y='49130'>
           <formatted-text>
             <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='13'>drug, patient, health, brain, research, scientist, memory, care, test, scientist, physician, study, doctor, mediterranean diet, medical, diet, treatment, nursing home, cognitive, knowledge, food</run>
             <run fontalignment='1'>Æ&#10;&#10;</run>
           </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='background-color' value='#fefaf1' />
+          </zone-style>
         </zone>
       </zones>
       <devicelayouts>
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='700' minheight='700' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='96522' id='11' param='vert' type-v2='layout-flow' w='98260' x='870' y='1739'>
+                <zone forceUpdate='true' h='14565' id='6' type-v2='text' w='83370' x='15109' y='0'>
+                  <formatted-text>
+                    <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='24'>Words</run>
+                    <run fontcolor='#333333' fontname='Malgun Gothic' fontsize='24'> in the lead paragraphs from the articles</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='33261' id='7' type-v2='text' w='44022' x='-978' y='18478'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'> It is noteworthy that </run>
+                    <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='15'>health and </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='15'>scientific</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'> words frequency and </run>
+                    <run fontalignment='1'>Æ&#10;</run>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'>diversity increased from 2007 on: </run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' forceUpdate='' h='80435' id='5' is-fixed='true' param='https://raw.githubusercontent.com/vdechen/DataVisualization_Dementia/main/WORDCLOUDS/Gif/2007_2021.gif' type-v2='web' w='57609' x='42391' y='19565'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='25217' id='8' type-v2='text' w='34022' x='4022' y='49130'>
+                  <formatted-text>
+                    <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='13'>drug, patient, health, brain, research, scientist, memory, care, test, scientist, physician, study, doctor, mediterranean diet, medical, diet, treatment, nursing home, cognitive, knowledge, food</run>
+                    <run fontalignment='1'>Æ&#10;&#10;</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#fefaf1' />
+                  </zone-style>
+                </zone>
+              </zone>
               <zone-style>
                 <format attr='border-color' value='#000000' />
                 <format attr='border-style' value='none' />
@@ -8405,7 +8670,7 @@
       <simple-id uuid='{C540604E-7E30-4D67-9FAB-DD6768789473}' />
     </dashboard>
   </dashboards>
-  <windows source-height='429'>
+  <windows source-height='450'>
     <window class='worksheet' name='count'>
       <cards>
         <edge name='left'>
@@ -8757,7 +9022,7 @@
       </cards>
       <simple-id uuid='{5631C406-8C63-493E-8E65-708D552EEB46}' />
     </window>
-    <window class='worksheet' maximized='true' name='mci_in_ad'>
+    <window class='worksheet' name='mci_in_ad'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -8784,6 +9049,17 @@
       </viewpoint>
       <simple-id uuid='{0ED3FD71-EEA2-4032-A977-F362CA6C75E4}' />
     </window>
+    <window class='dashboard' name='cover'>
+      <viewpoints />
+      <active id='3' />
+      <device-preview visible='true' />
+      <simple-id uuid='{715085E8-66E2-4E9B-BAA5-50101E8683C5}' />
+    </window>
+    <window class='dashboard' maximized='true' name='dementia'>
+      <viewpoints />
+      <active id='4' />
+      <simple-id uuid='{27B1CC88-C4D0-4F3B-A25A-CE32CA973BFA}' />
+    </window>
     <window class='dashboard' name='prev_dash'>
       <viewpoints>
         <viewpoint name='life_exp'>
@@ -8805,7 +9081,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='-1' />
+      <active id='15' />
       <simple-id uuid='{2622E465-D3DB-49A3-881C-0421732A09E7}' />
     </window>
     <window class='dashboard' name='dem_types_dash'>
@@ -8841,29 +9117,6 @@
       <viewpoints />
       <active id='-1' />
       <simple-id uuid='{96DFA19B-2431-4C28-9014-C7B02268C22C}' />
-    </window>
-    <window class='worksheet' name='Planilha 15'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{6384F365-A3C9-46BA-B9E7-B214368FDD18}' />
     </window>
   </windows>
 </workbook>
