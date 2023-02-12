@@ -3970,6 +3970,1059 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
+    <datasource caption='dementia_subtype' inline='true' name='federated.15ofi840fr557x1a81pz81dh9c46' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dementia_subtype' name='textscan.0oarsst11uow4u1doyy2k118anw7'>
+            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/DATASETS/NY times (dementia)' filename='dementia_subtype.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0oarsst11uow4u1doyy2k118anw7' name='dementia_subtype.csv' table='[dementia_subtype#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='pt_BR' separator=','>
+            <column datatype='integer' name='Unnamed: 0' ordinal='0' />
+            <column datatype='string' name='query' ordinal='1' />
+            <column datatype='integer' name='pub_date' ordinal='2' />
+            <column datatype='string' name='source' ordinal='3' />
+            <column datatype='string' name='headline1' ordinal='4' />
+            <column datatype='string' name='headline2' ordinal='5' />
+            <column datatype='string' name='snippet' ordinal='6' />
+            <column datatype='string' name='lead_paragraph' ordinal='7' />
+            <column datatype='string' name='keywords' ordinal='8' />
+            <column datatype='string' name='dementia_type' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0oarsst11uow4u1doyy2k118anw7' name='dementia_subtype.csv' table='[dementia_subtype#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='pt_BR' separator=','>
+            <column datatype='integer' name='Unnamed: 0' ordinal='0' />
+            <column datatype='string' name='query' ordinal='1' />
+            <column datatype='integer' name='pub_date' ordinal='2' />
+            <column datatype='string' name='source' ordinal='3' />
+            <column datatype='string' name='headline1' ordinal='4' />
+            <column datatype='string' name='headline2' ordinal='5' />
+            <column datatype='string' name='snippet' ordinal='6' />
+            <column datatype='string' name='lead_paragraph' ordinal='7' />
+            <column datatype='string' name='keywords' ordinal='8' />
+            <column datatype='string' name='dementia_type' ordinal='9' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dementia_subtype.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;pt_BR&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;R$&quot;</attribute>
+              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;pt_BR&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Unnamed: 0</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Unnamed: 0]</local-name>
+            <parent-name>[dementia_subtype.csv]</parent-name>
+            <remote-alias>Unnamed: 0</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>query</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[query]</local-name>
+            <parent-name>[dementia_subtype.csv]</parent-name>
+            <remote-alias>query</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pub_date</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[pub_date]</local-name>
+            <parent-name>[dementia_subtype.csv]</parent-name>
+            <remote-alias>pub_date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[dementia_subtype.csv]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>headline1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[headline1]</local-name>
+            <parent-name>[dementia_subtype.csv]</parent-name>
+            <remote-alias>headline1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>headline2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[headline2]</local-name>
+            <parent-name>[dementia_subtype.csv]</parent-name>
+            <remote-alias>headline2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>snippet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[snippet]</local-name>
+            <parent-name>[dementia_subtype.csv]</parent-name>
+            <remote-alias>snippet</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lead_paragraph</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lead_paragraph]</local-name>
+            <parent-name>[dementia_subtype.csv]</parent-name>
+            <remote-alias>lead_paragraph</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>keywords</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[keywords]</local-name>
+            <parent-name>[dementia_subtype.csv]</parent-name>
+            <remote-alias>keywords</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dementia_type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dementia_type]</local-name>
+            <parent-name>[dementia_subtype.csv]</parent-name>
+            <remote-alias>dementia_type</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LPT_RBR' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Cálculo1' datatype='integer' name='[Calculation_627970734972817410]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{INCLUDE [headline1]: COUNT([__tableau_internal_object_id__].[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83])}' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='dementia_subtype.csv' datatype='table' name='[__tableau_internal_object_id__].[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]' role='measure' type='quantitative' />
+      <column datatype='string' name='[dementia_type]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;alzheimer&quot;' value='Alzheimer' />
+          <alias key='&quot;frontotemporal dementia&quot;' value='Frontotemporal ' />
+          <alias key='&quot;lewy body&quot;' value='Lewy Bodies' />
+          <alias key='&quot;vascular dementia&quot;' value='Vascular' />
+        </aliases>
+      </column>
+      <column datatype='integer' name='[pub_date]' role='measure' type='quantitative' />
+      <column-instance column='[dementia_type]' derivation='Attribute' name='[attr:dementia_type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[dementia_type]' derivation='None' name='[none:dementia_type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[pub_date]' derivation='None' name='[none:pub_date:ok]' pivot='key' type='ordinal' />
+      <group caption='Ação (dementia_type)' hidden='true' name='[Action (dementia_type)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[dementia_type]' />
+        </groupfilter>
+      </group>
+      <group caption='Ação (dementia_type,pub_date)' hidden='true' name='[Action (dementia_type,pub_date)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[dementia_type]' />
+          <groupfilter function='level-members' level='[none:pub_date:ok]' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:dementia_type:nk]' type='palette'>
+            <map to='#9b93c9'>
+              <bucket>&quot;alzheimer&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;lewy body&quot;</bucket>
+            </map>
+            <map to='#b173a0'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;mild cognitive impairment&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;vascular dementia&quot;</bucket>
+            </map>
+            <map to='#f498b6'>
+              <bucket>&quot;frontotemporal dementia&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[attr:dementia_type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%many-values%</bucket>
+            </map>
+            <map to='#9b93c9'>
+              <bucket>&quot;alzheimer&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;lewy body&quot;</bucket>
+            </map>
+            <map to='#b173a0'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#c6c1f0'>
+              <bucket>&quot;mild cognitive impairment&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;vascular dementia&quot;</bucket>
+            </map>
+            <map to='#f498b6'>
+              <bucket>&quot;frontotemporal dementia&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='dementia_subtype.csv' id='dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83'>
+            <properties context=''>
+              <relation connection='textscan.0oarsst11uow4u1doyy2k118anw7' name='dementia_subtype.csv' table='[dementia_subtype#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='pt_BR' separator=','>
+                  <column datatype='integer' name='Unnamed: 0' ordinal='0' />
+                  <column datatype='string' name='query' ordinal='1' />
+                  <column datatype='integer' name='pub_date' ordinal='2' />
+                  <column datatype='string' name='source' ordinal='3' />
+                  <column datatype='string' name='headline1' ordinal='4' />
+                  <column datatype='string' name='headline2' ordinal='5' />
+                  <column datatype='string' name='snippet' ordinal='6' />
+                  <column datatype='string' name='lead_paragraph' ordinal='7' />
+                  <column datatype='string' name='keywords' ordinal='8' />
+                  <column datatype='string' name='dementia_type' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='frontotemporal dementia_in_dementia' inline='true' name='federated.1mrvqpr05h7jh915bl6n11s8umqo' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='frontotemporal dementia_in_dementia' name='textscan.0v5vmzh1ksw17h15jxfy406rycmw'>
+            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/DATASETS/NY times (dementia)' filename='frontotemporal dementia_in_dementia.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0v5vmzh1ksw17h15jxfy406rycmw' name='frontotemporal dementia_in_dementia.csv' table='[frontotemporal dementia_in_dementia#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='query' ordinal='1' />
+            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
+            <column datatype='string' name='source' ordinal='3' />
+            <column datatype='string' name='headline1' ordinal='4' />
+            <column datatype='string' name='headline2' ordinal='5' />
+            <column datatype='string' name='snippet' ordinal='6' />
+            <column datatype='string' name='lead_paragraph' ordinal='7' />
+            <column datatype='string' name='keywords' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0v5vmzh1ksw17h15jxfy406rycmw' name='frontotemporal dementia_in_dementia.csv' table='[frontotemporal dementia_in_dementia#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='query' ordinal='1' />
+            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
+            <column datatype='string' name='source' ordinal='3' />
+            <column datatype='string' name='headline1' ordinal='4' />
+            <column datatype='string' name='headline2' ordinal='5' />
+            <column datatype='string' name='snippet' ordinal='6' />
+            <column datatype='string' name='lead_paragraph' ordinal='7' />
+            <column datatype='string' name='keywords' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>query</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[query]</local-name>
+            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
+            <remote-alias>query</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pub_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[pub_date]</local-name>
+            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
+            <remote-alias>pub_date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>headline1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[headline1]</local-name>
+            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
+            <remote-alias>headline1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>headline2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[headline2]</local-name>
+            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
+            <remote-alias>headline2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>snippet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[snippet]</local-name>
+            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
+            <remote-alias>snippet</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lead_paragraph</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lead_paragraph]</local-name>
+            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
+            <remote-alias>lead_paragraph</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>keywords</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[keywords]</local-name>
+            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
+            <remote-alias>keywords</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='avg_prevalence' datatype='real' name='[Calculation_627970735232520197]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([federated.01o512p0hda5nh184d32j0782y5q].[Prevalence - Alzheimer&apos;s disease and other dementias - Sex: Both - Age: All Ages (Rate)])' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='frontotemporal dementia_in_dementia.csv' datatype='table' name='[__tableau_internal_object_id__].[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]' role='measure' type='quantitative' />
+      <column caption='Headline1' datatype='string' name='[headline1]' role='dimension' type='nominal' />
+      <column caption='Headline2' datatype='string' name='[headline2]' role='dimension' type='nominal' />
+      <column caption='Keywords' datatype='string' name='[keywords]' role='dimension' type='nominal' />
+      <column caption='Lead Paragraph' datatype='string' name='[lead_paragraph]' role='dimension' type='nominal' />
+      <column caption='Pub Date' datatype='date' name='[pub_date]' role='dimension' type='quantitative' />
+      <column caption='Query' datatype='string' name='[query]' role='dimension' type='nominal' />
+      <column caption='Snippet' datatype='string' name='[snippet]' role='dimension' type='nominal' />
+      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <datasource-dependencies datasource='federated.01o512p0hda5nh184d32j0782y5q'>
+        <column caption='prevalence' datatype='real' name='[Prevalence - Alzheimer&apos;s disease and other dementias - Sex: Both - Age: All Ages (Rate)]' role='measure' type='quantitative' />
+      </datasource-dependencies>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='frontotemporal dementia_in_dementia.csv' id='frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4'>
+            <properties context=''>
+              <relation connection='textscan.0v5vmzh1ksw17h15jxfy406rycmw' name='frontotemporal dementia_in_dementia.csv' table='[frontotemporal dementia_in_dementia#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='query' ordinal='1' />
+                  <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
+                  <column datatype='string' name='source' ordinal='3' />
+                  <column datatype='string' name='headline1' ordinal='4' />
+                  <column datatype='string' name='headline2' ordinal='5' />
+                  <column datatype='string' name='snippet' ordinal='6' />
+                  <column datatype='string' name='lead_paragraph' ordinal='7' />
+                  <column datatype='string' name='keywords' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='Sheet1 (wordclouds)' inline='true' name='federated.13uyqys0ohv65h1flhldn126zrrw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='wordclouds' name='excel-direct.1evgmic0l2zxb714tdxzy1ptzln9'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/WORDCLOUDS/wordclouds.xls' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1evgmic0l2zxb714tdxzy1ptzln9' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B33:no:A1:B33:0' header='no' outcome='2'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1evgmic0l2zxb714tdxzy1ptzln9' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:B33:no:A1:B33:0' header='no' outcome='2'>
+            <column datatype='string' name='F1' ordinal='0' />
+            <column datatype='string' name='F2' ordinal='1' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:B33:no:A1:B33:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>false</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7C434DFAE71C4265AF3DE56CC3C7C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F2</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[F2]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>F2</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RBR_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7C434DFAE71C4265AF3DE56CC3C7C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[F2]' role='dimension' semantic-role='[URL]' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='wordclouds' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_7C434DFAE71C4265AF3DE56CC3C7C8AB]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='wordclouds' id='Sheet1_7C434DFAE71C4265AF3DE56CC3C7C8AB'>
+            <properties context=''>
+              <relation connection='excel-direct.1evgmic0l2zxb714tdxzy1ptzln9' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:B33:no:A1:B33:0' header='no' outcome='2'>
+                  <column datatype='string' name='F1' ordinal='0' />
+                  <column datatype='string' name='F2' ordinal='1' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='alzheimer_in_dementia' inline='true' name='federated.0i5fawc1mjforh1ezksxk0622nnn' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='alzheimer_in_dementia' name='textscan.03cu40m12tezk51drrqvs1x56l8g'>
+            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/DATASETS/NY times (dementia)' filename='alzheimer_in_dementia.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.03cu40m12tezk51drrqvs1x56l8g' name='alzheimer_in_dementia.csv' table='[alzheimer_in_dementia#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='query' ordinal='1' />
+            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
+            <column datatype='string' name='source' ordinal='3' />
+            <column datatype='string' name='headline1' ordinal='4' />
+            <column datatype='string' name='headline2' ordinal='5' />
+            <column datatype='string' name='snippet' ordinal='6' />
+            <column datatype='string' name='lead_paragraph' ordinal='7' />
+            <column datatype='string' name='keywords' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.03cu40m12tezk51drrqvs1x56l8g' name='alzheimer_in_dementia.csv' table='[alzheimer_in_dementia#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='query' ordinal='1' />
+            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
+            <column datatype='string' name='source' ordinal='3' />
+            <column datatype='string' name='headline1' ordinal='4' />
+            <column datatype='string' name='headline2' ordinal='5' />
+            <column datatype='string' name='snippet' ordinal='6' />
+            <column datatype='string' name='lead_paragraph' ordinal='7' />
+            <column datatype='string' name='keywords' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>query</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[query]</local-name>
+            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <remote-alias>query</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pub_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[pub_date]</local-name>
+            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <remote-alias>pub_date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>headline1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[headline1]</local-name>
+            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <remote-alias>headline1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>headline2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[headline2]</local-name>
+            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <remote-alias>headline2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>snippet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[snippet]</local-name>
+            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <remote-alias>snippet</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lead_paragraph</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lead_paragraph]</local-name>
+            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <remote-alias>lead_paragraph</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>keywords</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[keywords]</local-name>
+            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <remote-alias>keywords</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='alzheimer_in_dementia.csv' datatype='table' name='[__tableau_internal_object_id__].[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]' role='measure' type='quantitative' />
+      <column caption='Headline1' datatype='string' name='[headline1]' role='dimension' type='nominal' />
+      <column caption='Headline2' datatype='string' name='[headline2]' role='dimension' type='nominal' />
+      <column caption='Keywords' datatype='string' name='[keywords]' role='dimension' type='nominal' />
+      <column caption='Lead Paragraph' datatype='string' name='[lead_paragraph]' role='dimension' type='nominal' />
+      <column caption='Pub Date' datatype='date' name='[pub_date]' role='dimension' type='quantitative' />
+      <column caption='Query' datatype='string' name='[query]' role='dimension' type='nominal' />
+      <column caption='Snippet' datatype='string' name='[snippet]' role='dimension' type='nominal' />
+      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='alzheimer_in_dementia.csv' id='alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF'>
+            <properties context=''>
+              <relation connection='textscan.03cu40m12tezk51drrqvs1x56l8g' name='alzheimer_in_dementia.csv' table='[alzheimer_in_dementia#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='query' ordinal='1' />
+                  <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
+                  <column datatype='string' name='source' ordinal='3' />
+                  <column datatype='string' name='headline1' ordinal='4' />
+                  <column datatype='string' name='headline2' ordinal='5' />
+                  <column datatype='string' name='snippet' ordinal='6' />
+                  <column datatype='string' name='lead_paragraph' ordinal='7' />
+                  <column datatype='string' name='keywords' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='lewy body_in_dementia' inline='true' name='federated.0e7bat70hbdc4812f4v821s6uith' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='lewy body_in_dementia' name='textscan.0qyrl1d1fc74ct1cgqi900dj7kvk'>
+            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/DATASETS/NY times (dementia)' filename='lewy body_in_dementia.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0qyrl1d1fc74ct1cgqi900dj7kvk' name='lewy body_in_dementia.csv' table='[lewy body_in_dementia#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='query' ordinal='1' />
+            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
+            <column datatype='string' name='source' ordinal='3' />
+            <column datatype='string' name='headline1' ordinal='4' />
+            <column datatype='string' name='headline2' ordinal='5' />
+            <column datatype='string' name='snippet' ordinal='6' />
+            <column datatype='string' name='lead_paragraph' ordinal='7' />
+            <column datatype='string' name='keywords' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0qyrl1d1fc74ct1cgqi900dj7kvk' name='lewy body_in_dementia.csv' table='[lewy body_in_dementia#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='query' ordinal='1' />
+            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
+            <column datatype='string' name='source' ordinal='3' />
+            <column datatype='string' name='headline1' ordinal='4' />
+            <column datatype='string' name='headline2' ordinal='5' />
+            <column datatype='string' name='snippet' ordinal='6' />
+            <column datatype='string' name='lead_paragraph' ordinal='7' />
+            <column datatype='string' name='keywords' ordinal='8' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[lewy body_in_dementia.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[lewy body_in_dementia.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>query</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[query]</local-name>
+            <parent-name>[lewy body_in_dementia.csv]</parent-name>
+            <remote-alias>query</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pub_date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[pub_date]</local-name>
+            <parent-name>[lewy body_in_dementia.csv]</parent-name>
+            <remote-alias>pub_date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>source</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[source]</local-name>
+            <parent-name>[lewy body_in_dementia.csv]</parent-name>
+            <remote-alias>source</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>headline1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[headline1]</local-name>
+            <parent-name>[lewy body_in_dementia.csv]</parent-name>
+            <remote-alias>headline1</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>headline2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[headline2]</local-name>
+            <parent-name>[lewy body_in_dementia.csv]</parent-name>
+            <remote-alias>headline2</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>snippet</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[snippet]</local-name>
+            <parent-name>[lewy body_in_dementia.csv]</parent-name>
+            <remote-alias>snippet</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lead_paragraph</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[lead_paragraph]</local-name>
+            <parent-name>[lewy body_in_dementia.csv]</parent-name>
+            <remote-alias>lead_paragraph</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>keywords</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[keywords]</local-name>
+            <parent-name>[lewy body_in_dementia.csv]</parent-name>
+            <remote-alias>keywords</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='lewy body_in_dementia.csv' datatype='table' name='[__tableau_internal_object_id__].[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]' role='measure' type='quantitative' />
+      <column caption='Headline1' datatype='string' name='[headline1]' role='dimension' type='nominal' />
+      <column caption='Headline2' datatype='string' name='[headline2]' role='dimension' type='nominal' />
+      <column caption='Keywords' datatype='string' name='[keywords]' role='dimension' type='nominal' />
+      <column caption='Lead Paragraph' datatype='string' name='[lead_paragraph]' role='dimension' type='nominal' />
+      <column caption='Pub Date' datatype='date' name='[pub_date]' role='dimension' type='quantitative' />
+      <column caption='Query' datatype='string' name='[query]' role='dimension' type='nominal' />
+      <column caption='Snippet' datatype='string' name='[snippet]' role='dimension' type='nominal' />
+      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='lewy body_in_dementia.csv' id='lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6'>
+            <properties context=''>
+              <relation connection='textscan.0qyrl1d1fc74ct1cgqi900dj7kvk' name='lewy body_in_dementia.csv' table='[lewy body_in_dementia#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='query' ordinal='1' />
+                  <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
+                  <column datatype='string' name='source' ordinal='3' />
+                  <column datatype='string' name='headline1' ordinal='4' />
+                  <column datatype='string' name='headline2' ordinal='5' />
+                  <column datatype='string' name='snippet' ordinal='6' />
+                  <column datatype='string' name='lead_paragraph' ordinal='7' />
+                  <column datatype='string' name='keywords' ordinal='8' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
     <datasource caption='dementia' inline='true' name='federated.02srzq51pg5u1a171ubnq0j82evq' version='18.1'>
       <connection class='federated'>
         <named-connections>
@@ -3979,15 +5032,15 @@
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1pqy4w006xgf2812wi5jz0pa0fcb' name='alzheimer_in_dementia.csv' table='[alzheimer_in_dementia#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='pt_BR'>
-            <column datatype='integer' name='F1' ordinal='9' />
-            <column datatype='string' name='query' ordinal='10' />
-            <column datatype='integer' name='pub_date' ordinal='11' />
-            <column datatype='string' name='source' ordinal='12' />
-            <column datatype='string' name='headline1' ordinal='13' />
-            <column datatype='string' name='headline2' ordinal='14' />
-            <column datatype='string' name='snippet' ordinal='15' />
-            <column datatype='string' name='lead_paragraph' ordinal='16' />
-            <column datatype='string' name='keywords' ordinal='17' />
+            <column datatype='integer' name='F1' ordinal='0' />
+            <column datatype='string' name='query' ordinal='1' />
+            <column datatype='integer' name='pub_date' ordinal='2' />
+            <column datatype='string' name='source' ordinal='3' />
+            <column datatype='string' name='headline1' ordinal='4' />
+            <column datatype='string' name='headline2' ordinal='5' />
+            <column datatype='string' name='snippet' ordinal='6' />
+            <column datatype='string' name='lead_paragraph' ordinal='7' />
+            <column datatype='string' name='keywords' ordinal='8' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
         <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
@@ -4006,28 +5059,28 @@
           </relation>
           <relation connection='textscan.1pqy4w006xgf2812wi5jz0pa0fcb' name='alzheimer_in_dementia.csv' table='[alzheimer_in_dementia#csv]' type='table'>
             <columns character-set='UTF-8' header='yes' locale='pt_BR'>
-              <column datatype='integer' name='F1' ordinal='9' />
-              <column datatype='string' name='query' ordinal='10' />
-              <column datatype='integer' name='pub_date' ordinal='11' />
-              <column datatype='string' name='source' ordinal='12' />
-              <column datatype='string' name='headline1' ordinal='13' />
-              <column datatype='string' name='headline2' ordinal='14' />
-              <column datatype='string' name='snippet' ordinal='15' />
-              <column datatype='string' name='lead_paragraph' ordinal='16' />
-              <column datatype='string' name='keywords' ordinal='17' />
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='query' ordinal='1' />
+              <column datatype='integer' name='pub_date' ordinal='2' />
+              <column datatype='string' name='source' ordinal='3' />
+              <column datatype='string' name='headline1' ordinal='4' />
+              <column datatype='string' name='headline2' ordinal='5' />
+              <column datatype='string' name='snippet' ordinal='6' />
+              <column datatype='string' name='lead_paragraph' ordinal='7' />
+              <column datatype='string' name='keywords' ordinal='8' />
             </columns>
           </relation>
           <relation connection='textscan.1pqy4w006xgf2812wi5jz0pa0fcb' name='frontotemporal dementia_in_dementia.csv' table='[frontotemporal dementia_in_dementia#csv]' type='table'>
             <columns character-set='UTF-8' header='yes' locale='pt_BR'>
-              <column datatype='integer' name='F1' ordinal='18' />
-              <column datatype='string' name='query' ordinal='19' />
-              <column datatype='integer' name='pub_date' ordinal='20' />
-              <column datatype='string' name='source' ordinal='21' />
-              <column datatype='string' name='headline1' ordinal='22' />
-              <column datatype='string' name='headline2' ordinal='23' />
-              <column datatype='string' name='snippet' ordinal='24' />
-              <column datatype='string' name='lead_paragraph' ordinal='25' />
-              <column datatype='string' name='keywords' ordinal='26' />
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='query' ordinal='1' />
+              <column datatype='integer' name='pub_date' ordinal='2' />
+              <column datatype='string' name='source' ordinal='3' />
+              <column datatype='string' name='headline1' ordinal='4' />
+              <column datatype='string' name='headline2' ordinal='5' />
+              <column datatype='string' name='snippet' ordinal='6' />
+              <column datatype='string' name='lead_paragraph' ordinal='7' />
+              <column datatype='string' name='keywords' ordinal='8' />
             </columns>
           </relation>
           <relation connection='textscan.1pqy4w006xgf2812wi5jz0pa0fcb' name='lewy body_in_dementia.csv' table='[lewy body_in_dementia#csv]' type='table'>
@@ -5142,15 +6195,15 @@
             <properties context=''>
               <relation connection='textscan.1pqy4w006xgf2812wi5jz0pa0fcb' name='alzheimer_in_dementia.csv' table='[alzheimer_in_dementia#csv]' type='table'>
                 <columns character-set='UTF-8' header='yes' locale='pt_BR'>
-                  <column datatype='integer' name='F1' ordinal='9' />
-                  <column datatype='string' name='query' ordinal='10' />
-                  <column datatype='integer' name='pub_date' ordinal='11' />
-                  <column datatype='string' name='source' ordinal='12' />
-                  <column datatype='string' name='headline1' ordinal='13' />
-                  <column datatype='string' name='headline2' ordinal='14' />
-                  <column datatype='string' name='snippet' ordinal='15' />
-                  <column datatype='string' name='lead_paragraph' ordinal='16' />
-                  <column datatype='string' name='keywords' ordinal='17' />
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='query' ordinal='1' />
+                  <column datatype='integer' name='pub_date' ordinal='2' />
+                  <column datatype='string' name='source' ordinal='3' />
+                  <column datatype='string' name='headline1' ordinal='4' />
+                  <column datatype='string' name='headline2' ordinal='5' />
+                  <column datatype='string' name='snippet' ordinal='6' />
+                  <column datatype='string' name='lead_paragraph' ordinal='7' />
+                  <column datatype='string' name='keywords' ordinal='8' />
                 </columns>
               </relation>
             </properties>
@@ -5176,15 +6229,15 @@
             <properties context=''>
               <relation connection='textscan.1pqy4w006xgf2812wi5jz0pa0fcb' name='frontotemporal dementia_in_dementia.csv' table='[frontotemporal dementia_in_dementia#csv]' type='table'>
                 <columns character-set='UTF-8' header='yes' locale='pt_BR'>
-                  <column datatype='integer' name='F1' ordinal='18' />
-                  <column datatype='string' name='query' ordinal='19' />
-                  <column datatype='integer' name='pub_date' ordinal='20' />
-                  <column datatype='string' name='source' ordinal='21' />
-                  <column datatype='string' name='headline1' ordinal='22' />
-                  <column datatype='string' name='headline2' ordinal='23' />
-                  <column datatype='string' name='snippet' ordinal='24' />
-                  <column datatype='string' name='lead_paragraph' ordinal='25' />
-                  <column datatype='string' name='keywords' ordinal='26' />
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='query' ordinal='1' />
+                  <column datatype='integer' name='pub_date' ordinal='2' />
+                  <column datatype='string' name='source' ordinal='3' />
+                  <column datatype='string' name='headline1' ordinal='4' />
+                  <column datatype='string' name='headline2' ordinal='5' />
+                  <column datatype='string' name='snippet' ordinal='6' />
+                  <column datatype='string' name='lead_paragraph' ordinal='7' />
+                  <column datatype='string' name='keywords' ordinal='8' />
                 </columns>
               </relation>
             </properties>
@@ -5260,14 +6313,14 @@
         </relationships>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
-    <datasource caption='alzheimer_in_dementia' inline='true' name='federated.0i5fawc1mjforh1ezksxk0622nnn' version='18.1'>
+    <datasource caption='mild cognitive impairment_in_dem_alz' inline='true' name='federated.17nmt5k062xzd2170xm4a0oe55vc' version='18.1'>
       <connection class='federated'>
         <named-connections>
-          <named-connection caption='alzheimer_in_dementia' name='textscan.03cu40m12tezk51drrqvs1x56l8g'>
-            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/DATASETS/NY times (dementia)' filename='alzheimer_in_dementia.csv' password='' server='' />
+          <named-connection caption='mild cognitive impairment_in_dem_alz' name='textscan.1kxefad1i4h2pk11ho2r01hpv6vx'>
+            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/DATASETS/NY times (dementia_alzheimer)' filename='mild cognitive impairment_in_dem_alz.csv' password='' server='' />
           </named-connection>
         </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.03cu40m12tezk51drrqvs1x56l8g' name='alzheimer_in_dementia.csv' table='[alzheimer_in_dementia#csv]' type='table'>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1kxefad1i4h2pk11ho2r01hpv6vx' name='mild cognitive impairment_in_dem_alz.csv' table='[mild cognitive impairment_in_dem_alz#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
             <column datatype='integer' name='F1' ordinal='0' />
             <column datatype='string' name='query' ordinal='1' />
@@ -5280,7 +6333,7 @@
             <column datatype='string' name='keywords' ordinal='8' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.03cu40m12tezk51drrqvs1x56l8g' name='alzheimer_in_dementia.csv' table='[alzheimer_in_dementia#csv]' type='table'>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1kxefad1i4h2pk11ho2r01hpv6vx' name='mild cognitive impairment_in_dem_alz.csv' table='[mild cognitive impairment_in_dem_alz#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
             <column datatype='integer' name='F1' ordinal='0' />
             <column datatype='string' name='query' ordinal='1' />
@@ -5297,7 +6350,7 @@
           <metadata-record class='capability'>
             <remote-name />
             <remote-type>0</remote-type>
-            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
             <remote-alias />
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
@@ -5314,19 +6367,19 @@
             <remote-name>F1</remote-name>
             <remote-type>20</remote-type>
             <local-name>[F1]</local-name>
-            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
             <remote-alias>F1</remote-alias>
             <ordinal>0</ordinal>
             <local-type>integer</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>query</remote-name>
             <remote-type>129</remote-type>
             <local-name>[query]</local-name>
-            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
             <remote-alias>query</remote-alias>
             <ordinal>1</ordinal>
             <local-type>string</local-type>
@@ -5335,26 +6388,26 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>pub_date</remote-name>
             <remote-type>7</remote-type>
             <local-name>[pub_date]</local-name>
-            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
             <remote-alias>pub_date</remote-alias>
             <ordinal>2</ordinal>
             <local-type>date</local-type>
             <aggregation>Year</aggregation>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>source</remote-name>
             <remote-type>129</remote-type>
             <local-name>[source]</local-name>
-            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
             <remote-alias>source</remote-alias>
             <ordinal>3</ordinal>
             <local-type>string</local-type>
@@ -5363,13 +6416,13 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>headline1</remote-name>
             <remote-type>129</remote-type>
             <local-name>[headline1]</local-name>
-            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
             <remote-alias>headline1</remote-alias>
             <ordinal>4</ordinal>
             <local-type>string</local-type>
@@ -5378,13 +6431,13 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>headline2</remote-name>
             <remote-type>129</remote-type>
             <local-name>[headline2]</local-name>
-            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
             <remote-alias>headline2</remote-alias>
             <ordinal>5</ordinal>
             <local-type>string</local-type>
@@ -5393,13 +6446,13 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>snippet</remote-name>
             <remote-type>129</remote-type>
             <local-name>[snippet]</local-name>
-            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
             <remote-alias>snippet</remote-alias>
             <ordinal>6</ordinal>
             <local-type>string</local-type>
@@ -5408,13 +6461,13 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>lead_paragraph</remote-name>
             <remote-type>129</remote-type>
             <local-name>[lead_paragraph]</local-name>
-            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
             <remote-alias>lead_paragraph</remote-alias>
             <ordinal>7</ordinal>
             <local-type>string</local-type>
@@ -5423,13 +6476,13 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>keywords</remote-name>
             <remote-type>129</remote-type>
             <local-name>[keywords]</local-name>
-            <parent-name>[alzheimer_in_dementia.csv]</parent-name>
+            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
             <remote-alias>keywords</remote-alias>
             <ordinal>8</ordinal>
             <local-type>string</local-type>
@@ -5438,230 +6491,12 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
-      <_.fcp.ObjectModelTableType.true...column caption='alzheimer_in_dementia.csv' datatype='table' name='[__tableau_internal_object_id__].[alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF]' role='measure' type='quantitative' />
-      <column caption='Headline1' datatype='string' name='[headline1]' role='dimension' type='nominal' />
-      <column caption='Headline2' datatype='string' name='[headline2]' role='dimension' type='nominal' />
-      <column caption='Keywords' datatype='string' name='[keywords]' role='dimension' type='nominal' />
-      <column caption='Lead Paragraph' datatype='string' name='[lead_paragraph]' role='dimension' type='nominal' />
-      <column caption='Pub Date' datatype='date' name='[pub_date]' role='dimension' type='quantitative' />
-      <column caption='Query' datatype='string' name='[query]' role='dimension' type='nominal' />
-      <column caption='Snippet' datatype='string' name='[snippet]' role='dimension' type='nominal' />
-      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='alzheimer_in_dementia.csv' id='alzheimer_in_dementia.csv_AD6FD7E7BB2941B7A00B950FE6B4C0BF'>
-            <properties context=''>
-              <relation connection='textscan.03cu40m12tezk51drrqvs1x56l8g' name='alzheimer_in_dementia.csv' table='[alzheimer_in_dementia#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                  <column datatype='integer' name='F1' ordinal='0' />
-                  <column datatype='string' name='query' ordinal='1' />
-                  <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
-                  <column datatype='string' name='source' ordinal='3' />
-                  <column datatype='string' name='headline1' ordinal='4' />
-                  <column datatype='string' name='headline2' ordinal='5' />
-                  <column datatype='string' name='snippet' ordinal='6' />
-                  <column datatype='string' name='lead_paragraph' ordinal='7' />
-                  <column datatype='string' name='keywords' ordinal='8' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
-    <datasource caption='lewy body_in_dementia' inline='true' name='federated.0e7bat70hbdc4812f4v821s6uith' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='lewy body_in_dementia' name='textscan.0qyrl1d1fc74ct1cgqi900dj7kvk'>
-            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/DATASETS/NY times (dementia)' filename='lewy body_in_dementia.csv' password='' server='' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0qyrl1d1fc74ct1cgqi900dj7kvk' name='lewy body_in_dementia.csv' table='[lewy body_in_dementia#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='F1' ordinal='0' />
-            <column datatype='string' name='query' ordinal='1' />
-            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
-            <column datatype='string' name='source' ordinal='3' />
-            <column datatype='string' name='headline1' ordinal='4' />
-            <column datatype='string' name='headline2' ordinal='5' />
-            <column datatype='string' name='snippet' ordinal='6' />
-            <column datatype='string' name='lead_paragraph' ordinal='7' />
-            <column datatype='string' name='keywords' ordinal='8' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0qyrl1d1fc74ct1cgqi900dj7kvk' name='lewy body_in_dementia.csv' table='[lewy body_in_dementia#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='F1' ordinal='0' />
-            <column datatype='string' name='query' ordinal='1' />
-            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
-            <column datatype='string' name='source' ordinal='3' />
-            <column datatype='string' name='headline1' ordinal='4' />
-            <column datatype='string' name='headline2' ordinal='5' />
-            <column datatype='string' name='snippet' ordinal='6' />
-            <column datatype='string' name='lead_paragraph' ordinal='7' />
-            <column datatype='string' name='keywords' ordinal='8' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[lewy body_in_dementia.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F1</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[F1]</local-name>
-            <parent-name>[lewy body_in_dementia.csv]</parent-name>
-            <remote-alias>F1</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>query</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[query]</local-name>
-            <parent-name>[lewy body_in_dementia.csv]</parent-name>
-            <remote-alias>query</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pub_date</remote-name>
-            <remote-type>7</remote-type>
-            <local-name>[pub_date]</local-name>
-            <parent-name>[lewy body_in_dementia.csv]</parent-name>
-            <remote-alias>pub_date</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>date</local-type>
-            <aggregation>Year</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>source</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[source]</local-name>
-            <parent-name>[lewy body_in_dementia.csv]</parent-name>
-            <remote-alias>source</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>headline1</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[headline1]</local-name>
-            <parent-name>[lewy body_in_dementia.csv]</parent-name>
-            <remote-alias>headline1</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>headline2</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[headline2]</local-name>
-            <parent-name>[lewy body_in_dementia.csv]</parent-name>
-            <remote-alias>headline2</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>snippet</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[snippet]</local-name>
-            <parent-name>[lewy body_in_dementia.csv]</parent-name>
-            <remote-alias>snippet</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>lead_paragraph</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[lead_paragraph]</local-name>
-            <parent-name>[lewy body_in_dementia.csv]</parent-name>
-            <remote-alias>lead_paragraph</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>keywords</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[keywords]</local-name>
-            <parent-name>[lewy body_in_dementia.csv]</parent-name>
-            <remote-alias>keywords</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <_.fcp.ObjectModelTableType.true...column caption='lewy body_in_dementia.csv' datatype='table' name='[__tableau_internal_object_id__].[lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='mild cognitive impairment_in_dem_alz.csv' datatype='table' name='[__tableau_internal_object_id__].[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]' role='measure' type='quantitative' />
       <column caption='Headline1' datatype='string' name='[headline1]' role='dimension' type='nominal' />
       <column caption='Headline2' datatype='string' name='[headline2]' role='dimension' type='nominal' />
       <column caption='Keywords' datatype='string' name='[keywords]' role='dimension' type='nominal' />
@@ -5676,9 +6511,9 @@
       </semantic-values>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
-          <object caption='lewy body_in_dementia.csv' id='lewy body_in_dementia.csv_CF667ED70C144751AF161DE6F2CF3EC6'>
+          <object caption='mild cognitive impairment_in_dem_alz.csv' id='mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED'>
             <properties context=''>
-              <relation connection='textscan.0qyrl1d1fc74ct1cgqi900dj7kvk' name='lewy body_in_dementia.csv' table='[lewy body_in_dementia#csv]' type='table'>
+              <relation connection='textscan.1kxefad1i4h2pk11ho2r01hpv6vx' name='mild cognitive impairment_in_dem_alz.csv' table='[mild cognitive impairment_in_dem_alz#csv]' type='table'>
                 <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
                   <column datatype='integer' name='F1' ordinal='0' />
                   <column datatype='string' name='query' ordinal='1' />
@@ -5914,841 +6749,6 @@
         </objects>
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
-    <datasource caption='mild cognitive impairment_in_dem_alz' inline='true' name='federated.17nmt5k062xzd2170xm4a0oe55vc' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='mild cognitive impairment_in_dem_alz' name='textscan.1kxefad1i4h2pk11ho2r01hpv6vx'>
-            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/DATASETS/NY times (dementia_alzheimer)' filename='mild cognitive impairment_in_dem_alz.csv' password='' server='' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1kxefad1i4h2pk11ho2r01hpv6vx' name='mild cognitive impairment_in_dem_alz.csv' table='[mild cognitive impairment_in_dem_alz#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='F1' ordinal='0' />
-            <column datatype='string' name='query' ordinal='1' />
-            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
-            <column datatype='string' name='source' ordinal='3' />
-            <column datatype='string' name='headline1' ordinal='4' />
-            <column datatype='string' name='headline2' ordinal='5' />
-            <column datatype='string' name='snippet' ordinal='6' />
-            <column datatype='string' name='lead_paragraph' ordinal='7' />
-            <column datatype='string' name='keywords' ordinal='8' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1kxefad1i4h2pk11ho2r01hpv6vx' name='mild cognitive impairment_in_dem_alz.csv' table='[mild cognitive impairment_in_dem_alz#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='F1' ordinal='0' />
-            <column datatype='string' name='query' ordinal='1' />
-            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
-            <column datatype='string' name='source' ordinal='3' />
-            <column datatype='string' name='headline1' ordinal='4' />
-            <column datatype='string' name='headline2' ordinal='5' />
-            <column datatype='string' name='snippet' ordinal='6' />
-            <column datatype='string' name='lead_paragraph' ordinal='7' />
-            <column datatype='string' name='keywords' ordinal='8' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F1</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[F1]</local-name>
-            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
-            <remote-alias>F1</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>query</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[query]</local-name>
-            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
-            <remote-alias>query</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pub_date</remote-name>
-            <remote-type>7</remote-type>
-            <local-name>[pub_date]</local-name>
-            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
-            <remote-alias>pub_date</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>date</local-type>
-            <aggregation>Year</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>source</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[source]</local-name>
-            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
-            <remote-alias>source</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>headline1</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[headline1]</local-name>
-            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
-            <remote-alias>headline1</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>headline2</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[headline2]</local-name>
-            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
-            <remote-alias>headline2</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>snippet</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[snippet]</local-name>
-            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
-            <remote-alias>snippet</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>lead_paragraph</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[lead_paragraph]</local-name>
-            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
-            <remote-alias>lead_paragraph</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>keywords</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[keywords]</local-name>
-            <parent-name>[mild cognitive impairment_in_dem_alz.csv]</parent-name>
-            <remote-alias>keywords</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <_.fcp.ObjectModelTableType.true...column caption='mild cognitive impairment_in_dem_alz.csv' datatype='table' name='[__tableau_internal_object_id__].[mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED]' role='measure' type='quantitative' />
-      <column caption='Headline1' datatype='string' name='[headline1]' role='dimension' type='nominal' />
-      <column caption='Headline2' datatype='string' name='[headline2]' role='dimension' type='nominal' />
-      <column caption='Keywords' datatype='string' name='[keywords]' role='dimension' type='nominal' />
-      <column caption='Lead Paragraph' datatype='string' name='[lead_paragraph]' role='dimension' type='nominal' />
-      <column caption='Pub Date' datatype='date' name='[pub_date]' role='dimension' type='quantitative' />
-      <column caption='Query' datatype='string' name='[query]' role='dimension' type='nominal' />
-      <column caption='Snippet' datatype='string' name='[snippet]' role='dimension' type='nominal' />
-      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='mild cognitive impairment_in_dem_alz.csv' id='mild cognitive impairment_in_dem_alz.csv_B5190D00AE78496FB03BE76EDCCA0FED'>
-            <properties context=''>
-              <relation connection='textscan.1kxefad1i4h2pk11ho2r01hpv6vx' name='mild cognitive impairment_in_dem_alz.csv' table='[mild cognitive impairment_in_dem_alz#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                  <column datatype='integer' name='F1' ordinal='0' />
-                  <column datatype='string' name='query' ordinal='1' />
-                  <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
-                  <column datatype='string' name='source' ordinal='3' />
-                  <column datatype='string' name='headline1' ordinal='4' />
-                  <column datatype='string' name='headline2' ordinal='5' />
-                  <column datatype='string' name='snippet' ordinal='6' />
-                  <column datatype='string' name='lead_paragraph' ordinal='7' />
-                  <column datatype='string' name='keywords' ordinal='8' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
-    <datasource caption='dementia_subtype' inline='true' name='federated.15ofi840fr557x1a81pz81dh9c46' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='dementia_subtype' name='textscan.0oarsst11uow4u1doyy2k118anw7'>
-            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/DATASETS/NY times (dementia)' filename='dementia_subtype.csv' password='' server='' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0oarsst11uow4u1doyy2k118anw7' name='dementia_subtype.csv' table='[dementia_subtype#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='pt_BR' separator=','>
-            <column datatype='integer' name='Unnamed: 0' ordinal='0' />
-            <column datatype='string' name='query' ordinal='1' />
-            <column datatype='integer' name='pub_date' ordinal='2' />
-            <column datatype='string' name='source' ordinal='3' />
-            <column datatype='string' name='headline1' ordinal='4' />
-            <column datatype='string' name='headline2' ordinal='5' />
-            <column datatype='string' name='snippet' ordinal='6' />
-            <column datatype='string' name='lead_paragraph' ordinal='7' />
-            <column datatype='string' name='keywords' ordinal='8' />
-            <column datatype='string' name='dementia_type' ordinal='9' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0oarsst11uow4u1doyy2k118anw7' name='dementia_subtype.csv' table='[dementia_subtype#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='pt_BR' separator=','>
-            <column datatype='integer' name='Unnamed: 0' ordinal='0' />
-            <column datatype='string' name='query' ordinal='1' />
-            <column datatype='integer' name='pub_date' ordinal='2' />
-            <column datatype='string' name='source' ordinal='3' />
-            <column datatype='string' name='headline1' ordinal='4' />
-            <column datatype='string' name='headline2' ordinal='5' />
-            <column datatype='string' name='snippet' ordinal='6' />
-            <column datatype='string' name='lead_paragraph' ordinal='7' />
-            <column datatype='string' name='keywords' ordinal='8' />
-            <column datatype='string' name='dementia_type' ordinal='9' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[dementia_subtype.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;pt_BR&quot;</attribute>
-              <attribute datatype='string' name='currency'>&quot;R$&quot;</attribute>
-              <attribute datatype='string' name='decimal-char'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;pt_BR&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-              <attribute datatype='string' name='thousands-char'>&quot;.&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Unnamed: 0</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Unnamed: 0]</local-name>
-            <parent-name>[dementia_subtype.csv]</parent-name>
-            <remote-alias>Unnamed: 0</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>query</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[query]</local-name>
-            <parent-name>[dementia_subtype.csv]</parent-name>
-            <remote-alias>query</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pub_date</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[pub_date]</local-name>
-            <parent-name>[dementia_subtype.csv]</parent-name>
-            <remote-alias>pub_date</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>source</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[source]</local-name>
-            <parent-name>[dementia_subtype.csv]</parent-name>
-            <remote-alias>source</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>headline1</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[headline1]</local-name>
-            <parent-name>[dementia_subtype.csv]</parent-name>
-            <remote-alias>headline1</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>headline2</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[headline2]</local-name>
-            <parent-name>[dementia_subtype.csv]</parent-name>
-            <remote-alias>headline2</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>snippet</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[snippet]</local-name>
-            <parent-name>[dementia_subtype.csv]</parent-name>
-            <remote-alias>snippet</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>lead_paragraph</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[lead_paragraph]</local-name>
-            <parent-name>[dementia_subtype.csv]</parent-name>
-            <remote-alias>lead_paragraph</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>keywords</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[keywords]</local-name>
-            <parent-name>[dementia_subtype.csv]</parent-name>
-            <remote-alias>keywords</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>dementia_type</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[dementia_type]</local-name>
-            <parent-name>[dementia_subtype.csv]</parent-name>
-            <remote-alias>dementia_type</remote-alias>
-            <ordinal>9</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LPT_RBR' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='Cálculo1' datatype='integer' name='[Calculation_627970734972817410]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='{INCLUDE [headline1]: COUNT([__tableau_internal_object_id__].[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83])}' />
-      </column>
-      <_.fcp.ObjectModelTableType.true...column caption='dementia_subtype.csv' datatype='table' name='[__tableau_internal_object_id__].[dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83]' role='measure' type='quantitative' />
-      <column datatype='string' name='[dementia_type]' role='dimension' type='nominal'>
-        <aliases>
-          <alias key='&quot;alzheimer&quot;' value='Alzheimer' />
-          <alias key='&quot;frontotemporal dementia&quot;' value='Frontotemporal ' />
-          <alias key='&quot;lewy body&quot;' value='Lewy Bodies' />
-          <alias key='&quot;vascular dementia&quot;' value='Vascular' />
-        </aliases>
-      </column>
-      <column datatype='integer' name='[pub_date]' role='measure' type='quantitative' />
-      <column-instance column='[dementia_type]' derivation='Attribute' name='[attr:dementia_type:nk]' pivot='key' type='nominal' />
-      <column-instance column='[dementia_type]' derivation='None' name='[none:dementia_type:nk]' pivot='key' type='nominal' />
-      <column-instance column='[pub_date]' derivation='None' name='[none:pub_date:ok]' pivot='key' type='ordinal' />
-      <group caption='Ação (dementia_type)' hidden='true' name='[Action (dementia_type)]' name-style='unqualified' user:auto-column='sheet_link'>
-        <groupfilter function='crossjoin'>
-          <groupfilter function='level-members' level='[dementia_type]' />
-        </groupfilter>
-      </group>
-      <group caption='Ação (dementia_type,pub_date)' hidden='true' name='[Action (dementia_type,pub_date)]' name-style='unqualified' user:auto-column='sheet_link'>
-        <groupfilter function='crossjoin'>
-          <groupfilter function='level-members' level='[dementia_type]' />
-          <groupfilter function='level-members' level='[none:pub_date:ok]' />
-        </groupfilter>
-      </group>
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <style>
-        <style-rule element='mark'>
-          <encoding attr='color' field='[none:dementia_type:nk]' type='palette'>
-            <map to='#9b93c9'>
-              <bucket>&quot;alzheimer&quot;</bucket>
-            </map>
-            <map to='#b07aa1'>
-              <bucket>&quot;lewy body&quot;</bucket>
-            </map>
-            <map to='#b173a0'>
-              <bucket>%null%</bucket>
-            </map>
-            <map to='#c6c1f0'>
-              <bucket>&quot;mild cognitive impairment&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;vascular dementia&quot;</bucket>
-            </map>
-            <map to='#f498b6'>
-              <bucket>&quot;frontotemporal dementia&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[attr:dementia_type:nk]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>%many-values%</bucket>
-            </map>
-            <map to='#9b93c9'>
-              <bucket>&quot;alzheimer&quot;</bucket>
-            </map>
-            <map to='#b07aa1'>
-              <bucket>&quot;lewy body&quot;</bucket>
-            </map>
-            <map to='#b173a0'>
-              <bucket>%null%</bucket>
-            </map>
-            <map to='#c6c1f0'>
-              <bucket>&quot;mild cognitive impairment&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;vascular dementia&quot;</bucket>
-            </map>
-            <map to='#f498b6'>
-              <bucket>&quot;frontotemporal dementia&quot;</bucket>
-            </map>
-          </encoding>
-        </style-rule>
-      </style>
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='dementia_subtype.csv' id='dementia_subtype.csv_5E5E932683FA48BFBBC3EF796516EA83'>
-            <properties context=''>
-              <relation connection='textscan.0oarsst11uow4u1doyy2k118anw7' name='dementia_subtype.csv' table='[dementia_subtype#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='pt_BR' separator=','>
-                  <column datatype='integer' name='Unnamed: 0' ordinal='0' />
-                  <column datatype='string' name='query' ordinal='1' />
-                  <column datatype='integer' name='pub_date' ordinal='2' />
-                  <column datatype='string' name='source' ordinal='3' />
-                  <column datatype='string' name='headline1' ordinal='4' />
-                  <column datatype='string' name='headline2' ordinal='5' />
-                  <column datatype='string' name='snippet' ordinal='6' />
-                  <column datatype='string' name='lead_paragraph' ordinal='7' />
-                  <column datatype='string' name='keywords' ordinal='8' />
-                  <column datatype='string' name='dementia_type' ordinal='9' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
-    <datasource caption='frontotemporal dementia_in_dementia' inline='true' name='federated.1mrvqpr05h7jh915bl6n11s8umqo' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='frontotemporal dementia_in_dementia' name='textscan.0v5vmzh1ksw17h15jxfy406rycmw'>
-            <connection class='textscan' directory='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/DATASETS/NY times (dementia)' filename='frontotemporal dementia_in_dementia.csv' password='' server='' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0v5vmzh1ksw17h15jxfy406rycmw' name='frontotemporal dementia_in_dementia.csv' table='[frontotemporal dementia_in_dementia#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='F1' ordinal='0' />
-            <column datatype='string' name='query' ordinal='1' />
-            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
-            <column datatype='string' name='source' ordinal='3' />
-            <column datatype='string' name='headline1' ordinal='4' />
-            <column datatype='string' name='headline2' ordinal='5' />
-            <column datatype='string' name='snippet' ordinal='6' />
-            <column datatype='string' name='lead_paragraph' ordinal='7' />
-            <column datatype='string' name='keywords' ordinal='8' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0v5vmzh1ksw17h15jxfy406rycmw' name='frontotemporal dementia_in_dementia.csv' table='[frontotemporal dementia_in_dementia#csv]' type='table'>
-          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='integer' name='F1' ordinal='0' />
-            <column datatype='string' name='query' ordinal='1' />
-            <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
-            <column datatype='string' name='source' ordinal='3' />
-            <column datatype='string' name='headline1' ordinal='4' />
-            <column datatype='string' name='headline2' ordinal='5' />
-            <column datatype='string' name='snippet' ordinal='6' />
-            <column datatype='string' name='lead_paragraph' ordinal='7' />
-            <column datatype='string' name='keywords' ordinal='8' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
-              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
-              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
-              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
-              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F1</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[F1]</local-name>
-            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
-            <remote-alias>F1</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>integer</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>query</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[query]</local-name>
-            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
-            <remote-alias>query</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>pub_date</remote-name>
-            <remote-type>7</remote-type>
-            <local-name>[pub_date]</local-name>
-            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
-            <remote-alias>pub_date</remote-alias>
-            <ordinal>2</ordinal>
-            <local-type>date</local-type>
-            <aggregation>Year</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>source</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[source]</local-name>
-            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
-            <remote-alias>source</remote-alias>
-            <ordinal>3</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>headline1</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[headline1]</local-name>
-            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
-            <remote-alias>headline1</remote-alias>
-            <ordinal>4</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>headline2</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[headline2]</local-name>
-            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
-            <remote-alias>headline2</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>snippet</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[snippet]</local-name>
-            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
-            <remote-alias>snippet</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>lead_paragraph</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[lead_paragraph]</local-name>
-            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
-            <remote-alias>lead_paragraph</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>keywords</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[keywords]</local-name>
-            <parent-name>[frontotemporal dementia_in_dementia.csv]</parent-name>
-            <remote-alias>keywords</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <scale>1</scale>
-            <width>1073741823</width>
-            <contains-null>true</contains-null>
-            <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column caption='avg_prevalence' datatype='real' name='[Calculation_627970735232520197]' role='measure' type='quantitative'>
-        <calculation class='tableau' formula='AVG([federated.01o512p0hda5nh184d32j0782y5q].[Prevalence - Alzheimer&apos;s disease and other dementias - Sex: Both - Age: All Ages (Rate)])' />
-      </column>
-      <_.fcp.ObjectModelTableType.true...column caption='frontotemporal dementia_in_dementia.csv' datatype='table' name='[__tableau_internal_object_id__].[frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4]' role='measure' type='quantitative' />
-      <column caption='Headline1' datatype='string' name='[headline1]' role='dimension' type='nominal' />
-      <column caption='Headline2' datatype='string' name='[headline2]' role='dimension' type='nominal' />
-      <column caption='Keywords' datatype='string' name='[keywords]' role='dimension' type='nominal' />
-      <column caption='Lead Paragraph' datatype='string' name='[lead_paragraph]' role='dimension' type='nominal' />
-      <column caption='Pub Date' datatype='date' name='[pub_date]' role='dimension' type='quantitative' />
-      <column caption='Query' datatype='string' name='[query]' role='dimension' type='nominal' />
-      <column caption='Snippet' datatype='string' name='[snippet]' role='dimension' type='nominal' />
-      <column caption='Source' datatype='string' name='[source]' role='dimension' type='nominal' />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
-      </semantic-values>
-      <datasource-dependencies datasource='federated.01o512p0hda5nh184d32j0782y5q'>
-        <column caption='prevalence' datatype='real' name='[Prevalence - Alzheimer&apos;s disease and other dementias - Sex: Both - Age: All Ages (Rate)]' role='measure' type='quantitative' />
-      </datasource-dependencies>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='frontotemporal dementia_in_dementia.csv' id='frontotemporal dementia_in_dementia.csv_94E30FC7194A45CD95A03BDFA074C5F4'>
-            <properties context=''>
-              <relation connection='textscan.0v5vmzh1ksw17h15jxfy406rycmw' name='frontotemporal dementia_in_dementia.csv' table='[frontotemporal dementia_in_dementia#csv]' type='table'>
-                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                  <column datatype='integer' name='F1' ordinal='0' />
-                  <column datatype='string' name='query' ordinal='1' />
-                  <column datatype='date' date-parse-format='yyyy' name='pub_date' ordinal='2' />
-                  <column datatype='string' name='source' ordinal='3' />
-                  <column datatype='string' name='headline1' ordinal='4' />
-                  <column datatype='string' name='headline2' ordinal='5' />
-                  <column datatype='string' name='snippet' ordinal='6' />
-                  <column datatype='string' name='lead_paragraph' ordinal='7' />
-                  <column datatype='string' name='keywords' ordinal='8' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
-    <datasource caption='Sheet1 (wordclouds)' inline='true' name='federated.13uyqys0ohv65h1flhldn126zrrw' version='18.1'>
-      <connection class='federated'>
-        <named-connections>
-          <named-connection caption='wordclouds' name='excel-direct.1evgmic0l2zxb714tdxzy1ptzln9'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Vanessa/Downloads/Dados/Programas/Repositório Git/DataVisualization_Dementia/DataVisualization_Dementia/WORDCLOUDS/wordclouds.xls' interpretationMode='0' password='' server='' validate='no' />
-          </named-connection>
-        </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1evgmic0l2zxb714tdxzy1ptzln9' name='Sheet1' table='[Sheet1$]' type='table'>
-          <columns gridOrigin='A1:B33:no:A1:B33:0' header='no' outcome='2'>
-            <column datatype='string' name='F1' ordinal='0' />
-            <column datatype='string' name='F2' ordinal='1' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1evgmic0l2zxb714tdxzy1ptzln9' name='Sheet1' table='[Sheet1$]' type='table'>
-          <columns gridOrigin='A1:B33:no:A1:B33:0' header='no' outcome='2'>
-            <column datatype='string' name='F1' ordinal='0' />
-            <column datatype='string' name='F2' ordinal='1' />
-          </columns>
-        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
-        <metadata-records>
-          <metadata-record class='capability'>
-            <remote-name />
-            <remote-type>0</remote-type>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias />
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <attributes>
-              <attribute datatype='integer' name='context'>1</attribute>
-              <attribute datatype='string' name='gridOrigin'>&quot;A1:B33:no:A1:B33:0&quot;</attribute>
-              <attribute datatype='boolean' name='header'>false</attribute>
-              <attribute datatype='integer' name='outcome'>2</attribute>
-            </attributes>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F1</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[F1]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>F1</remote-alias>
-            <ordinal>0</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LPT_RBR_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7C434DFAE71C4265AF3DE56CC3C7C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>F2</remote-name>
-            <remote-type>130</remote-type>
-            <local-name>[F2]</local-name>
-            <parent-name>[Sheet1]</parent-name>
-            <remote-alias>F2</remote-alias>
-            <ordinal>1</ordinal>
-            <local-type>string</local-type>
-            <aggregation>Count</aggregation>
-            <contains-null>true</contains-null>
-            <collation flag='1' name='LPT_RBR_S2' />
-            <attributes>
-              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
-            </attributes>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_7C434DFAE71C4265AF3DE56CC3C7C8AB]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-        </metadata-records>
-      </connection>
-      <aliases enabled='yes' />
-      <column datatype='string' name='[F2]' role='dimension' semantic-role='[URL]' type='nominal' />
-      <_.fcp.ObjectModelTableType.true...column caption='wordclouds' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_7C434DFAE71C4265AF3DE56CC3C7C8AB]' role='measure' type='quantitative' />
-      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' _.fcp.SchemaViewerObjectModel.true...common-percentage='1' _.fcp.SchemaViewerObjectModel.true...user-set-layout-v2='true' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
-      <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Brasil&quot;' />
-      </semantic-values>
-      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-        <objects>
-          <object caption='wordclouds' id='Sheet1_7C434DFAE71C4265AF3DE56CC3C7C8AB'>
-            <properties context=''>
-              <relation connection='excel-direct.1evgmic0l2zxb714tdxzy1ptzln9' name='Sheet1' table='[Sheet1$]' type='table'>
-                <columns gridOrigin='A1:B33:no:A1:B33:0' header='no' outcome='2'>
-                  <column datatype='string' name='F1' ordinal='0' />
-                  <column datatype='string' name='F2' ordinal='1' />
-                </columns>
-              </relation>
-            </properties>
-          </object>
-        </objects>
-      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
-    </datasource>
   </datasources>
   <mapsources>
     <mapsource name='Tableau' />
@@ -6779,47 +6779,22 @@
     <worksheet name='Planilha 15'>
       <table>
         <view>
-          <datasources>
-            <datasource caption='Sheet1 (wordclouds)' name='federated.13uyqys0ohv65h1flhldn126zrrw' />
-          </datasources>
-          <datasource-dependencies datasource='federated.13uyqys0ohv65h1flhldn126zrrw'>
-            <column datatype='string' name='[F2]' role='dimension' semantic-role='[URL]' type='nominal' />
-            <column-instance column='[F2]' derivation='None' name='[none:F2:nk]' pivot='key' type='nominal' />
-          </datasource-dependencies>
-          <filter class='categorical' column='[federated.13uyqys0ohv65h1flhldn126zrrw].[none:F2:nk]'>
-            <groupfilter function='member' level='[none:F2:nk]' member='&quot;http://raw.githubusercontent.com/vdechen/DataVisualization_Dementia/main/WORDCLOUDS/wordclouds_by_year/2000.png&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
-          </filter>
-          <slices>
-            <column>[federated.13uyqys0ohv65h1flhldn126zrrw].[none:F2:nk]</column>
-          </slices>
+          <datasources />
           <aggregation value='true' />
         </view>
-        <style>
-          <style-rule element='cell'>
-            <format attr='height' value='314' />
-          </style-rule>
-        </style>
+        <style />
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
-            <style>
-              <style-rule element='pane'>
-                <format attr='minheight' value='-1' />
-                <format attr='maxheight' value='-1' />
-              </style-rule>
-            </style>
           </pane>
         </panes>
-        <rows>[federated.13uyqys0ohv65h1flhldn126zrrw].[none:F2:nk]</rows>
+        <rows />
         <cols />
-        <pages>
-          <column>[federated.13uyqys0ohv65h1flhldn126zrrw].[none:F2:nk]</column>
-        </pages>
       </table>
-      <simple-id uuid='{5DA0544A-2B29-42CD-9C3A-122272401D39}' />
+      <simple-id uuid='{3CAD9FF7-3FBB-4442-9CAC-117318E350DF}' />
     </worksheet>
     <worksheet name='alz_in_dem'>
       <layout-options>
@@ -7862,11 +7837,13 @@
         <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
           <zone h='97334' id='8' param='vert' removable='false' type-v2='layout-flow' w='98400' x='800' y='1333'>
             <zone h='97334' id='1' param='vert' removable='false' type-v2='layout-flow' w='98400' x='800' y='1333'>
-              <zone h='13167' id='4' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98400' x='800' y='1333' />
-              <zone h='84167' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98400' x='800' y='14500'>
-                <flipboard active-id='6' nav-type='number' show-nav-arrows='true'>
+              <zone h='16833' id='4' is-fixed='true' paired-zone-id='5' removable='false' type-v2='flipboard-nav' w='98400' x='800' y='1333' />
+              <zone h='80501' id='5' paired-zone-id='4' removable='false' type-v2='flipboard' w='98400' x='800' y='18166'>
+                <flipboard active-id='8' nav-type='caption' show-nav-arrows='true'>
                   <story-points>
-                    <story-point captured-sheet='prev_dash' id='4'>
+                    <story-point caption='Título' captured-sheet='' id='12' />
+                    <story-point caption='O que é demência?' captured-sheet='' id='9' />
+                    <story-point caption='Prevalência de casos' captured-sheet='prev_dash' id='4'>
                       <capturedDeltas>
                         <worksheet name='prev'>
                           <shelf-sort-deltas>
@@ -7877,7 +7854,7 @@
                         </worksheet>
                       </capturedDeltas>
                     </story-point>
-                    <story-point captured-sheet='alz_dem_dash' id='6'>
+                    <story-point caption='Prevalência de menções no NY Times' captured-sheet='alz_dem_dash' id='6'>
                       <capturedDeltas>
                         <dashboard name='alz_dem_dash'>
                           <zone id='15'>
@@ -7897,7 +7874,11 @@
                         </dashboard>
                       </capturedDeltas>
                     </story-point>
-                    <story-point captured-sheet='dem_types_dash' id='5' />
+                    <story-point caption='Sobre os tipos e importância de conhecer' captured-sheet='' id='11' />
+                    <story-point caption='Tipos mencionados no NY Times' captured-sheet='dem_types_dash' id='5' />
+                    <story-point caption='Google trends' captured-sheet='' id='10' />
+                    <story-point caption='Palavras gerais' captured-sheet='wordcloud1' id='7' />
+                    <story-point caption='Palavras médicas (2007-)' captured-sheet='wordcloud2' id='8' />
                   </story-points>
                 </flipboard>
               </zone>
@@ -7912,38 +7893,6 @@
         </zone>
       </zones>
       <simple-id uuid='{A9966D39-A598-4D11-BCF7-261127735C4F}' />
-    </dashboard>
-    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Painel 4'>
-      <style />
-      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
-      <zones>
-        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
-          <zone-style>
-            <format attr='border-color' value='#000000' />
-            <format attr='border-style' value='none' />
-            <format attr='border-width' value='0' />
-            <format attr='margin' value='8' />
-          </zone-style>
-        </zone>
-        <zone forceUpdate='' h='61125' id='5' param='https://raw.githubusercontent.com/vdechen/DataVisualization_Dementia/main/WORDCLOUDS/words.gif' type-v2='web' w='75600' x='-3000' y='8500' />
-      </zones>
-      <devicelayouts>
-        <devicelayout auto-generated='true' name='Phone'>
-          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
-          <zones>
-            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
-              <zone-style>
-                <format attr='border-color' value='#000000' />
-                <format attr='border-style' value='none' />
-                <format attr='border-width' value='0' />
-                <format attr='margin' value='8' />
-              </zone-style>
-            </zone>
-          </zones>
-        </devicelayout>
-      </devicelayouts>
-      <simple-id uuid='{801FECAD-5692-4F44-9C7E-17FA99D8E5CC}' />
     </dashboard>
     <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='alz_dem_dash'>
       <style />
@@ -8331,6 +8280,130 @@
       </devicelayouts>
       <simple-id uuid='{40C1CD3B-8F02-494D-9BB2-89528CFA4D16}' />
     </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='wordcloud1'>
+      <style />
+      <size maxheight='460' maxwidth='920' minheight='460' minwidth='920' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='' h='80435' id='5' param='https://raw.githubusercontent.com/vdechen/DataVisualization_Dementia/main/WORDCLOUDS/1995_2006.gif' type-v2='web' w='57609' x='42391' y='19565' />
+        <zone forceUpdate='true' h='14565' id='6' type-v2='text' w='83370' x='15109' y='0'>
+          <formatted-text>
+            <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='24'>Words</run>
+            <run fontcolor='#333333' fontname='Malgun Gothic' fontsize='24'> in the lead paragraphs from the articles</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='17826' id='7' type-v2='text' w='31739' x='3913' y='18043'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'>The most prevalent word from 1995-2021 is </run>
+            <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='15'>disease</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'>. </run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='69348' id='8' type-v2='text' w='33478' x='4674' y='30870'>
+          <formatted-text>
+            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>Other terms are related to:</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>• </run>
+            <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='12'>family</run>
+            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>: mother, father, husband, wife, family, grandfather, grandmother, son, daughter, brother, sister, loving, home</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>• </run>
+            <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='12'>time and uncertainty</run>
+            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>: may, years, late, time, day, long term, risk, age, aging</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>• </run>
+            <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='12'>life and death</run>
+            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>: died, death, cemetery, memorial, life, survived, service</run>
+            <run>Æ&#10;&#10;</run>
+            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>• </run>
+            <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='12'>community</run>
+            <run fontcolor='#000000' fontname='Malgun Gothic' fontsize='12'>: association, people, company, church, friend</run>
+            <run>Æ&#10;</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{801FECAD-5692-4F44-9C7E-17FA99D8E5CC}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='wordcloud2'>
+      <style />
+      <size maxheight='460' maxwidth='920' minheight='460' minwidth='920' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='' h='80435' id='5' param='https://raw.githubusercontent.com/vdechen/DataVisualization_Dementia/main/WORDCLOUDS/2007_2021.gif' type-v2='web' w='57609' x='42391' y='19565' />
+        <zone forceUpdate='true' h='14565' id='6' type-v2='text' w='83370' x='15109' y='0'>
+          <formatted-text>
+            <run bold='true' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='24'>Words</run>
+            <run fontcolor='#333333' fontname='Malgun Gothic' fontsize='24'> in the lead paragraphs from the articles</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='33261' id='7' type-v2='text' w='44022' x='-978' y='18478'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'> It is noteworthy that </run>
+            <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='15'>health and </run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#b07aa1' fontname='Malgun Gothic' fontsize='15'>scientific</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'> words frequency and </run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='15'>diversity increased from 2007 on: </run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='70000' id='8' type-v2='text' w='36087' x='2935' y='30870'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#000000' fontname='Malgun Gothic' fontsize='13'>drug, patient, health, brain, research, scientist, memory, care, test, scientist, physician, study, doctor, mediterranean diet, medical, diet, treatment, nursing home, cognitive, knowledge, food</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C540604E-7E30-4D67-9FAB-DD6768789473}' />
+    </dashboard>
   </dashboards>
   <windows source-height='429'>
     <window class='worksheet' name='count'>
@@ -8684,7 +8757,7 @@
       </cards>
       <simple-id uuid='{5631C406-8C63-493E-8E65-708D552EEB46}' />
     </window>
-    <window class='worksheet' name='mci_in_ad'>
+    <window class='worksheet' maximized='true' name='mci_in_ad'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -8752,6 +8825,18 @@
       <active id='-1' />
       <simple-id uuid='{D5A62950-97E9-4C91-A087-CDDF100B29A6}' />
     </window>
+    <window class='dashboard' name='wordcloud1'>
+      <viewpoints />
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{5805A0A0-5A16-4853-803E-443C2DF2B2D0}' />
+    </window>
+    <window class='dashboard' name='wordcloud2'>
+      <viewpoints />
+      <active id='-1' />
+      <device-preview visible='true' />
+      <simple-id uuid='{523AF8D1-748B-43F6-940B-2B72BD91060D}' />
+    </window>
     <window class='dashboard' name='História'>
       <viewpoints />
       <active id='-1' />
@@ -8773,19 +8858,12 @@
           <strip size='2147483647'>
             <card type='rows' />
           </strip>
-        </edge>
-        <edge name='right'>
-          <strip size='170'>
-            <card type='currpage' />
+          <strip size='31'>
+            <card type='title' />
           </strip>
         </edge>
       </cards>
-      <simple-id uuid='{FCC00D73-DBE3-47BA-A8FE-95F0C577FFC5}' />
-    </window>
-    <window class='dashboard' maximized='true' name='Painel 4'>
-      <viewpoints />
-      <active id='5' />
-      <simple-id uuid='{5805A0A0-5A16-4853-803E-443C2DF2B2D0}' />
+      <simple-id uuid='{6384F365-A3C9-46BA-B9E7-B214368FDD18}' />
     </window>
   </windows>
 </workbook>
