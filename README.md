@@ -1,5 +1,5 @@
-# DataVisualization_Dementia 
-(How aware are we? Dementia rates and representations in the last decades)
+# Data Visualization - Dementia 
+How aware are we? Dementia rates and representations in the last decades
  
  Project status(On-Hold)
 
