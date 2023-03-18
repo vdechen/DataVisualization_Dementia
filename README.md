@@ -2,7 +2,7 @@
 How aware are we? Dementia rates and representations in the last decades
  
 # Project Goal and Description
-This data visualization project aimed at analyzing "dementia" mentions in NY Times articles in order to compare them with data from other sources and better understand how informed the general population is on the topic. 
+This data visualization project aimed at showing "dementia" mentions in NY Times articles in order to compare them with data from other sources and better understand how informed the general population is on the topic. 
 
 # Technologies 
 - NY Times API
